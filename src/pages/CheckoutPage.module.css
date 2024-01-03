@@ -1,0 +1,75 @@
+.checkoutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.checkoutTitle {
+  margin-bottom: 24px;
+}
+
+.flexWrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  padding: 24px;
+}
+
+.leftWrapper {
+  margin-top: 12px;
+  margin-left: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addressForm {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.inputStyle {
+  width: 300px;
+  padding: 12px;
+  height: 12px;
+  background-color: rgb(244, 243, 243);
+  border: none;
+}
+
+.paymentTitle {
+  margin-top: 24px;
+}
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+} */
+
+/* input[type="date"]:before {
+  content: attr(placeholder);
+} */
+
+.payBtn {
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  background-color: #82c617;
+  font-size: 14px;
+  width: max-content;
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top: 24px;
+}

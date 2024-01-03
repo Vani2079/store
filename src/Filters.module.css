@@ -1,0 +1,30 @@
+.filtersWrapper {
+  padding: 28px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: max-content;
+  border-right: 1px solid grey;
+  height: max-content;
+  position: sticky;
+  top: 92px;
+  max-height: 100vh;
+}
+
+.filterTitle {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  margin-bottom: 18px;
+}
+.reset {
+  color: rgb(216, 9, 9);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.title {
+  margin: 18px 0;
+}
+.flex {
+  margin-bottom: 14px;
+  display: flex;
+}

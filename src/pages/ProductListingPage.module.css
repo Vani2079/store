@@ -1,0 +1,13 @@
+.listingPageWrapper {
+  display: flex;
+  gap: 34px;
+}
+
+.flexWrapper {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin: 24px auto;
+  gap: 24px;
+  justify-content: center;
+}

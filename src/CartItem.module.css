@@ -1,0 +1,133 @@
+.wrapper {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  width: max-content;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 200px;
+  width: 250px;
+  border-radius: 8px;
+}
+.textWrapper {
+  margin-left: 30px;
+  align-self: start;
+}
+.wishlistWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  background-color: #82c617;
+  color: white;
+  width: fit-content;
+  padding: 4px;
+  border-radius: 5%;
+}
+.description {
+  color: gray;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.brand {
+  color: grey;
+  margin-bottom: 10px;
+}
+.wishlistBtn {
+  color: #82c617;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 700;
+  background-color: white;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.wishlistBtn:disabled {
+  cursor: not-allowed;
+}
+.quantityWrapper {
+  margin: 0px 10px;
+  display: flex;
+}
+.decrementBtn {
+  padding: 4px;
+  margin-right: 4px;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  border: 1px solid grey;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.quantity {
+  width: 22px;
+  margin: 0px 4px;
+  display: block;
+  text-align: center;
+  color: #82c617;
+  font-weight: 700;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.incrementBtn {
+  padding: 4px;
+  margin-left: 4px;
+  border-radius: 50%;
+  margin-right: 4px;
+  height: 25px;
+  width: 25px;
+  border: 1px solid grey;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.actionWrapper {
+  margin-left: 74px;
+}
+.mrp {
+  text-decoration: line-through;
+  opacity: 0.5;
+  font-size: 14px;
+}
+.price {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.delButton {
+  background-color: white;
+  border: none;
+  color: red;
+  cursor: pointer;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15%;
+}
+.delIcon {
+  height: 22px;
+  width: 22px;
+}
+.iconWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.starIcon {
+  color: gold;
+  margin-left: 4px;
+}

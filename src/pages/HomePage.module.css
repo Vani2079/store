@@ -1,0 +1,18 @@
+.title {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.flexWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 24px 24px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.sectionWrapper {
+  max-width: 1136px;
+  margin: auto;
+}

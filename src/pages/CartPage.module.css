@@ -1,0 +1,31 @@
+.cartTitle {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.flexWrapper {
+  display: flex;
+  gap: 34px;
+  justify-content: center;
+}
+
+.buyBtn {
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  background-color: #82c617;
+  font-size: 14px;
+  width: max-content;
+  letter-spacing: 1px;
+}
+
+.rightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}

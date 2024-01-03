@@ -1,0 +1,20 @@
+.featureImage {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  margin: 16px;
+}
+
+.featureImage:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.featureText {
+  text-align: center;
+  text-wrap: wrap;
+  max-width: 212px;
+}
+
+.wrapper {
+  width: max-content;
+  cursor: pointer;
+}

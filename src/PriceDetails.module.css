@@ -1,0 +1,22 @@
+.priceWrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 16px;
+  height: max-content;
+  padding-bottom: 42px;
+}
+
+.flexWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-weight: 600;
+}
+.priceTitle {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.discount {
+  color: #82c617;
+}
